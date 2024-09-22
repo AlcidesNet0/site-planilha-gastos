@@ -5,11 +5,9 @@ flex: 1;
 height: 1px;
 background: #eee;
 }
-.h-custom {
-height: calc(100% - 73px);
-}
-@media (max-width: 450px) {
-.h-custom {
-height: 100%;
-}
+
+.background-custom {
+    background-image: url(../assets/images/background_with_coins.jpg  );
+    background-size: cover;
+    background-repeat: no-repeat;
 }
